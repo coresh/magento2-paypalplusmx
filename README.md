@@ -1,16 +1,16 @@
-# Magento 2: qbo/module-paypalplusmx payment module (MX)
+# Magento 2: qbo/magento2-paypalplusmx payment module (MX)
 Magento 2 PayPal Plus (México)
 
 # Installation
 
 From the root folder of your project:
 ```
-composer require coresh/module-paypalplusmx
+composer require coresh/magento2-paypalplusmx
 php bin/magento setup:upgrade
 ```
 If something goes wrong with dependencies, and youre OK to ignore it,  add the following line to your composer.json under "require" section:
 ```
-"coresh/module-paypalplusmx": "dev-master"
+"coresh/magento2-paypalplusmx": "dev-master"
 ```
 Then update your dependencies
 ```
